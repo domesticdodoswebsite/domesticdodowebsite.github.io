@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>classes</title>
     <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #000000;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
         table {
           font-family: arial, sans-serif;
           border-collapse: collapse;
@@ -24,7 +43,10 @@
         </style>
 </head>
 <body>
-    <p><a href="index.html">home</a></p>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="list">list</a></li>
+    </ul>
     <table>
        <tr><th>Monday</th>
         <th>Tuesday</th>
